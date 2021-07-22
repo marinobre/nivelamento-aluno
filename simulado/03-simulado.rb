@@ -2,7 +2,8 @@
 # e deve retornar o valor da média aritmética entre todos os números do array.
 
 def calcula_media(array)
-    soma_elemento = 0
+    soma_elemento = 0.0 # declarado em float
+
     for index in (0..array.size-1)
         soma_elemento = soma_elemento + array[index]    
     end

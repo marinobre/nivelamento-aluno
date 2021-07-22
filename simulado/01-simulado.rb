@@ -7,12 +7,12 @@ def preco_maca(quantidade)
     preco_2 = 0.25
 
     if quantidade <= 0 
-         return nil
+        return nil
 
     elsif quantidade > 11
         preco_maca = preco_2 *quantidade
         
-    elsif quantidade < 11
+    elsif quantidade <= 11
         preco_maca = preco_1 *quantidade
     
     end 
